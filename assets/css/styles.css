@@ -1,0 +1,180 @@
+header {
+    background-image: url("/assets/images/bg.jpg");
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+   
+  .header-content {
+    width: 70%;
+    
+  }
+  
+  .header-content h1 {
+    font-size: 48px;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    animation: slideIn 1s ease-in-out;
+    
+  }
+  
+  .header-content p {
+    font-size: 24px;
+    color: #fff;
+    margin-top: 30px;
+  }
+  .serif {
+    font-family: Palatino,Georgia,Times New Roman,Times,serif;
+  }
+/* Education Section */
+#education {
+    background-image: linear-gradient(-180deg,#1a1527,#0e0c16 88%,#0e0c16 99%);
+    padding: 80px 0;
+    background-color: #0f0d15;
+    background-position: top;
+    background-repeat: repeat-x;
+    position: relative;
+    overflow: hidden;
+    min-height: 300px;
+    height: auto;
+    color: white;
+    opacity: 1;
+    animation: fadeIn 1s ease-in-out;
+  }
+  .card > h3 {
+    text-align: center;
+    color: #3effdf;
+  }
+  #education h2 {
+    
+    color: #988e9f;
+    font-family: "";
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .education-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .card {
+    background-color: #54267082;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    height: 250px;
+    margin: 20px;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+   
+  }
+  
+  #popup,#popup1,#popup2 {
+    background-color: black;
+  }
+  div.pop {
+    padding: 35px;
+}
+
+
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: -13px -5px 21px -9px black,0px 10px 15px -3px black,0px 10px 15px -3px black;
+  }
+  
+  .card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .card p {
+    font-size: 18px;
+    margin-bottom: 5px;
+    line-height: 1.5;
+  }
+  .btn{
+    position: absolute;
+    bottom: 5px;
+    left: 29%;
+    border-radius: 5px;
+    border: 1px solid #53a3ff99;
+    color: white;
+  }
+  .btn:hover {
+    -webkit-box-shadow: 9px 9px 20px 0px rgba(123,132,184,0.62);
+-moz-box-shadow: 9px 9px 20px 0px rgba(123,132,184,0.62);
+box-shadow: 9px 9px 20px 0px rgba(123,132,184,0.62);
+color: #207abdde;
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideIn {
+    0% {
+      opacity: 0;
+      transform: translateY(50px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  } 
+.pop {
+  display: none;
+  padding-top: 100px; /* Location of the box */
+  left: 25%;
+  top: 30%;
+  width: 50%; /* Full width */
+  height: 50%; /* Full height */
+  z-index: 1;
+  position: fixed; /* Stay in place */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  overflow: auto;
+  
+}
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  position: absolute;
+  top: 0;
+}
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+/* Experience Section  */
+#carouselExampleIndicators {
+  padding: 20px;
+
+  text-align: center;
+}
+.carousel-item h2{
+
+  text-align: center !important;
+  font-size: 25px
+      
+}
