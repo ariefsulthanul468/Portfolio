@@ -50,12 +50,15 @@ header {
     text-align: center;
     color: #3effdf;
   }
-  #education h2 {
+  h2 {
     
     color: #988e9f;
     font-family: "";
     margin-bottom: 30px;
     text-align: center;
+  }
+  #testimonials h2 {
+    padding: 20px;
   }
   
   .education-cards {
@@ -67,15 +70,16 @@ header {
   }
   
   .card {
-    background-color: #54267082;
+    background-color: transparent;
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    padding: 20px;
     width: 300px;
     height: 250px;
     margin: 20px;
     transition: transform 0.3s ease-in-out;
     cursor: pointer;
+    text-align: center;
+   
    
   }
   
@@ -169,8 +173,10 @@ color: #207abdde;
 /* Experience Section  */
 #carouselExampleIndicators {
   padding: 20px;
-
+ margin-top: 3%;
+ height: 200px;
   text-align: center;
+  color: white;
 }
 .carousel-item h2{
 
@@ -178,3 +184,10 @@ color: #207abdde;
   font-size: 25px
       
 }
+#testimonials {
+  background-color: #353154f2;
+}
+  
+
+
+
