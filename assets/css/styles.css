@@ -11,10 +11,27 @@
 
    
   .header-content {
-    width: 70%;
+    width: 50%;
+    position: relative;
+    left: 10%;
+    box-shadow: 0 2px 4px rgb(255 255 255);
+
+
     
   }
-  
+  .head-left {
+    color: white;
+    position: relative;
+    left: 15%;
+    
+
+  }
+
+  .head-left ul li {
+    list-style: none;
+    color: white;
+    text-align: left;
+  }
   .header-content h1 {
     font-size: 48px;
     color: #fff;
@@ -33,7 +50,7 @@
   }
 /* Education Section */
 #education {
-    background-image: linear-gradient(-180deg,#1a1527,#0e0c16 88%,#0e0c16 99%);
+    /* background-image: linear-gradient(-180deg,#1a1527,#0e0c16 88%,#0e0c16 99%); */
     padding: 80px 0;
     background-color: #0f0d15;
     background-position: top;
@@ -72,7 +89,9 @@
   .card {
     background-color: transparent;
     border-radius: 10px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+    box-shadow: 0 2px 4px rgb(255 255 255);
+
     width: 300px;
     height: 250px;
     margin: 20px;
@@ -185,9 +204,52 @@ color: #207abdde;
       
 }
 #testimonials {
-  background-color: #353154f2;
+  background-color: black;
 }
   
+/* Divide scroll effect */
+/* body {
+  margin:0 auto;
+  } */
+  .tile {
+   
+      -webkit-transform: translateY(50px) rotate(-5deg) translateZ(0);
+      transform: translateY(50px) rotate(-5deg) translateZ(0);
+      -webkit-transition-delay: .3s;
+      -o-transition-delay: .3s;
+      transition-delay: .3s;
+      -webkit-transition: .4s;
+      -o-transition: .4s;
+      transition: .4s;
+      opacity: 0;
+      -webkit-filter: grayscale(1);
+      filter: grayscale(1);
+  }
+  .bottom-right.inView {
+      opacity: 1;
+      -webkit-transform: translateY(0px) rotate(0deg) translateZ(0);
+      transform: translateY(0px) rotate(0deg) translateZ(0);
+  }
+  .inView {
+       opacity: 1;
+      -webkit-transform: translateY(0px) rotate(0deg) translateZ(0);
+      transform: translateY(0px) rotate(0deg) translateZ(0);
+  }
+  /* section {
+      padding:20px;
+  } */
 
 
-
+  @media screen and (max-device-width: 640px) and (min-device-width: 360px) and (orientation: portrait) 
+  {
+    .header-content{
+      width: 80%;
+      position: relative;
+    }
+    .head-left {
+      display: none;
+    }
+    #carouselExampleIndicators{
+height: auto;
+    }
+  }
