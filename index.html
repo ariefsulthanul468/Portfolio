@@ -14,17 +14,40 @@
 
   <!-- Letter Animation CDN -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
-    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="stylesheet" href="css/styles.css" />
     
    
    
 </head>
 <body>
-    <header class="main">
+    <header> 
+      
+      <div  class="main">
+        <nav class="navbar navbar-expand-lg navbar-dark">   
+         
+    
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#footer">Contact</a> 
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="#pricing">Pricing</a> 
+            </li>
+            <li class="nav-item">
+             <a class="nav-link" href="#cta">Download</a> 
+            </li>
+        </ul>
+      </div>
+      </nav>
+      
       <div class="row">
         <div class="col-lg-8 header-content" id="home">
           <h1 class="ml3">Hi I'm Sulthanul Arief</h1>
-          <p>I'm a <em class="serif">web developer</em> and I love creating beautiful and functional websites. This is my portfolio website, where you can see some of my latest projects and learn more about my skills and experience.</p>
+          <p>I'm a <em class="serif">web developer</em> and I love creating beautiful and <span style="color: black;">functional</span> websites. This is my portfolio website, where you can see some of my latest projects and learn more about my skills and experience.</p>
           <p style="color: grey;">Let me show You...</p>
         </div>
         <div class="card col-lg-4 head-left">
@@ -52,7 +75,11 @@
         
         </div>
       </div>
+    </div>
 
+    <div class="download-button">
+      <button type="button" class="btn btn-outline-light btn-lg "><i class="fab fa-google-play"></i> Download</button>
+    </div>
 
   </header>
 <!-- Education Section -->
@@ -65,7 +92,7 @@
         <h3>SSLC</h3>
         <p>Oriental Arabic Higher secondary school</p>
         <p>Mark: 429/500 (85%)</p>
-        <button class="btn" id="myBtn">Click here</button>
+        <button class="btn Cardbtn" id="myBtn">Click here</button>
       </div>
       <div class="pop" id="popup">
         <span class="close">&times;</span>
@@ -81,7 +108,7 @@
         <h3>HSC</h3>
         <p>Government Boys higher secondary school</p>
         <p>Mark: 954/1200 (80%)</p>
-        <button class="btn btn1" id="myBtn1">Click here</button>
+        <button class="btn Cardbtn btn1" id="myBtn1">Click here</button>
        </div>
        <div class="pop" id="popup1">
         <span class="close">&times;</span>
@@ -97,7 +124,7 @@
         <p>Dhaanish Ahmed college of Engineering</p>
         <p>Anna University</p>
         <p>Percentage: 72%</p>
-        <button class="btn3 btn" id="myBtn2">Click here</button>
+        <button class="btn3 Cardbtn btn" id="myBtn2">Click here</button>
       </div>
       <div class="pop" id="popup2">
         <span class="close">&times;</span>
