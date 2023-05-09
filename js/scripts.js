@@ -81,3 +81,28 @@ fadeIn();
 const currentYear = new Date().getFullYear();
 // Set the current year in the footer
 document.getElementById('current-year').textContent = currentYear;
+
+// Footer Form
+
+
+
+
+
+   // Add event listener to form submission
+   document.getElementById('myForm').addEventListener('submit', function(event) {
+    // const userName = localStorage.setItem(document.getElementById("name").value);
+    // const userMobile = document.getElementById("phone").value;
+    // const userEmail = document.getElementById("email").value;
+    // const userComment = document.getElementById("comment").value;
+    // Prevent the default form submission behavior
+    event.preventDefault();
+    
+    // Redirect to the success page
+    window.location.href = '/success.html';
+
+  });
+
+  
+
+
+ 
