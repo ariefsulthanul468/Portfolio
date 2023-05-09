@@ -90,10 +90,7 @@ document.getElementById('current-year').textContent = currentYear;
 
    // Add event listener to form submission
    document.getElementById('myForm').addEventListener('submit', function(event) {
-    // const userName = localStorage.setItem(document.getElementById("name").value);
-    // const userMobile = document.getElementById("phone").value;
-    // const userEmail = document.getElementById("email").value;
-    // const userComment = document.getElementById("comment").value;
+   
     // Prevent the default form submission behavior
     event.preventDefault();
     
@@ -101,8 +98,19 @@ document.getElementById('current-year').textContent = currentYear;
     window.location.href = '/success.html';
 
   });
-
   
 
+    // const submitForm = ()=> {
+    // const userName = document.getElementById("name").value;
+    // const userMobile = document.getElementById("phone").value;
+    // const userEmail = document.getElementById("email").value;
+    // const userComment = document.getElementById("comment").value;
+    // return console.log(userName);
 
+
+    // }
+
+    var home = document.getElementById("home");
+
+   
  

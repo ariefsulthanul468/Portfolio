@@ -302,7 +302,7 @@
         <h2>Skills</h2>
         <div class="row">
           <div class="col-md-12">
-            <div class="main-timeline">
+            <div class="main-timeline" style="color: white;">
               <div href="#" class="timeline">
                 <!-- <div class="timeline-icon"><i class="fa fa-globe"></i></div> -->
                 <div class="timeline-content">
@@ -381,7 +381,7 @@
         <div class="row">
           <h2>Projects</h2>
           <div class="col-lg-6">
-            <div class="card" style="height: 90%; width: auto">
+            <div class="card project-card" style="height: 90%; width: auto">
               <div class="card-body">
                 <div class="card-title">
                   <h3>Citi Bank Projects</h3>
@@ -413,7 +413,7 @@
             </div>
           </div>
           <div class="col-lg-6">
-            <div class="card" style="height: 90%; width: auto">
+            <div class="card project-card" style="height: 90%; width: auto">
               <div class="card-body">
                 <div class="card-title">
                   <h3>Ujjivan Bank Projects</h3>
@@ -459,6 +459,8 @@
                   class="form-control"
                   id="name"
                   placeholder="Enter your name"
+                  required
+                  autocomplete="off"
                 />
               </div>
               <div class="form-group">
@@ -468,6 +470,8 @@
                   class="form-control"
                   id="phone"
                   placeholder="Enter your phone number"
+                  required
+                  autocomplete="off"
                 />
               </div>
               <div class="form-group">
@@ -477,6 +481,8 @@
                   class="form-control"
                   id="email"
                   placeholder="Enter your email"
+                  required
+                  autocomplete="off"
                 />
               </div>
               <div class="form-group">
@@ -485,9 +491,11 @@
                   placeholder="Enter your Comments..."
                   id="comment"
                   class="form-control"
+                  required
+                  autocomplete="off"
                 ></textarea>
               </div>
-              <button type="submit" id="send-button" class="btn btn-primary">
+              <button type="submit" id="send-button" class="btn btn-primary" onclick="submitForm()">
                 Send Message
               </button>
             </form>
@@ -520,7 +528,7 @@
       </div>
 
       <div class="copy-right">
-        <p>
+        <p  style="font-size: 15px;">
           &copy; <span id="current-year"></span> Designed By Sulthanul Arief
         </p>
       </div>

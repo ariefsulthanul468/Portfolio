@@ -205,7 +205,7 @@ color: #207abdde;
  margin-top: 3%;
  height: 200px;
   text-align: center;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 .carousel-item h2{
 
@@ -213,9 +213,7 @@ color: #207abdde;
   font-size: 25px
       
 }
-#testimonials {
-  background-color: black;
-}
+
   
 /* Divide scroll effect */
 /* body {
@@ -333,8 +331,15 @@ height: auto;
     margin: 20px;
   }
 
-  #projects {
+  /* #projects {
+    background-color: aqua;
+  } */
+
+
+  .project-card {
     background-color: aqua;
   }
 
-
+.description {
+  color: white;
+}
