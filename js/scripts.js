@@ -110,7 +110,6 @@ document.getElementById('current-year').textContent = currentYear;
 
     // }
 
-    var home = document.getElementById("home");
 
    
  

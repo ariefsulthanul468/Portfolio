@@ -38,7 +38,7 @@
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="stylesheet" href="css/timeline.css" />
   </head>
-  <body>
+  <body id="top">
     <header
       style="
         background-image: url(images/gettyimage.jpg);
@@ -94,6 +94,11 @@
               and learn more about my skills and experience.
             </p>
             <p style="color: grey">Let me show You...</p>
+            <div class="download-button">
+              <button type="button" class="btn btn-outline-light btn-lg">
+                <i class="fab fa-google-play"></i> Download
+              </button>
+            </div>
           </div>
           <div class="card col-lg-4 head-left">
             <div class="card-body">
@@ -112,11 +117,7 @@
             </div>
           </div>
         </div>
-        <div class="download-button">
-          <button type="button" class="btn btn-outline-light btn-lg">
-            <i class="fab fa-google-play"></i> Download
-          </button>
-        </div>
+       
       </div>
 
     
@@ -495,13 +496,13 @@
                   autocomplete="off"
                 ></textarea>
               </div>
-              <button type="submit" id="send-button" class="btn btn-primary" onclick="submitForm()">
+              <button type="submit" id="send-button" class="btn btn-primary">
                 Send Message
               </button>
             </form>
           </div>
         </div>
-        <div class="col-lg-6 footer-content">
+        <div class="col-lg-6 footer-content footer-content-left">
           <div class="social-media-icons">
             <h3>Follow Us</h3>
             <a href="http:\\www.facebook.com" class="social-media"
@@ -517,12 +518,19 @@
               ><i class="fab fa-linkedin-in footer-icon"></i
             ></a>
           </div>
-          <div class="footer-content">
-            <p>
+          <!-- <div class="footer-content"> -->
+            <div>
+            <!-- <p>
               “We need to accept that we won’t always make the right decisions,
               that we’ll screw up royally sometimes―understanding that failure
               is not the opposite of success, it’s part of success.”
-            </p>
+            </p> -->
+            <address>
+              <p>Phone : 8248566678</p>
+              <p>Email : ariefsulthanul468@gmail.com</p>
+              <p>18/A, Hakka sahib street, Parangipettai</p>
+              <p>Cuddalore - 608502</p>
+            </address>
           </div>
         </div>
       </div>
@@ -531,8 +539,10 @@
         <p  style="font-size: 15px;">
           &copy; <span id="current-year"></span> Designed By Sulthanul Arief
         </p>
+        <a href="#top"><img src="/images/top.png"></a> 
       </div>
       <!-- Rest of the code remains the same -->
+     
     </footer>
 
     <!-- Jquery CDN -->
