@@ -52,7 +52,7 @@ body {
   text-align: left;
 }
 .head-left  {
-   background-image: url("/images/bg.jpg");
+   background-image: url("../images/bg.jpg");
    box-shadow: 0 0px 11px rgb(256 256 200);
 }
 
@@ -110,7 +110,7 @@ h2 {
 
 .education-cards .card {
   
-  background-image: url("/images/cardbg1.jpeg");
+  background-image: url("../images/cardbg1.jpeg");
 }
 
 
