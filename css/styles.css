@@ -16,12 +16,13 @@ body {
   width: 50%;
   position: relative;
   left: 10%;
-  box-shadow: 0 -8px 4px rgb(255 255 255);
+  box-shadow: 0 -4px 4px rgb(255 255 255);
 }
 .header-content:hover {
-  transform: translateY(-10px);
   box-shadow: -13px -5x 21px 0px black, 0px 10px 15px -3px black,
-    0px 10px 15px -3px black;
+    0px 10px 15px -3px black; 
+  transform: translateY(-10px);
+  /* */
   /* transition: transform 0.3s ease-in-out; */
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   animation: slideIn 1s ease-in-out;
@@ -117,7 +118,11 @@ h2 {
 #popup,
 #popup1,
 #popup2 {
-  background-color: #3b2929;
+  background-color: #ffffff;
+}
+.pop p {
+  color: black;
+  font-size: 20px;
 }
 div.pop {
   padding: 35px;
@@ -153,6 +158,8 @@ div.pop {
   box-shadow: 9px 9px 20px 0px rgba(123, 132, 184, 0.62);
   color: #207abdde;
 }
+
+
 
 @keyframes fadeIn {
   0% {

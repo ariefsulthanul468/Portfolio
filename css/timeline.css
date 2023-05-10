@@ -1,6 +1,6 @@
   /* Timeline */
   #skills {
-    background-color: currentColor;
+    background-image: url("../images/bg.jpg")
   }
   a{text-decoration:none}
 h4{text-align:center;margin:30px 0;}
@@ -9,11 +9,11 @@ h4{text-align:center;margin:30px 0;}
   position:relative
 }
 
-.main-timeline:before{
+/* .main-timeline:before{
   content:"";width:5px;height:100%;margin:0 auto;
   background:#242922;position:absolute;top:0;left:0;right:0;
   border-radius:20px;
-}
+} */
 
 .main-timeline .timeline{
   display:inline-block;margin-bottom:50px;position:relative

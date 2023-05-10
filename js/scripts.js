@@ -95,7 +95,7 @@ document.getElementById('current-year').textContent = currentYear;
     event.preventDefault();
     
     // Redirect to the success page
-    window.location.href = '/success.html';
+    window.location.href = '../success.html';
 
   });
   
