@@ -58,6 +58,20 @@ span.onclick = function() {
 box3.style.display = "none";
 $('body').css('overflow', 'visible');
 }
+// const isMobile = window.style.css('only screen and (max-width: 768px)').matches;
+// btn2.onclick = function() {
+//   if (isMobile === true) {
+//     document.body.style.overflow = 'hidden';
+//     box3.style.display = "block";
+//   }
+// };
+
+// span.onclick = function() {
+//   if (isMobile === true) {
+//     box3.style.display = "none";
+//     document.body.style.overflow = 'visible';
+//   }
+// };
 
 // Scroll fade effect
 let elementsArray = document.querySelectorAll(".tile");

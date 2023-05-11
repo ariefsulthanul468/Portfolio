@@ -1,4 +1,4 @@
-body {
+html,body {
   overflow-x: hidden;
 }
 .main {
@@ -261,8 +261,10 @@ div.pop {
 
 @media screen and (max-device-width: 640px) and (min-device-width: 360px) and (orientation: portrait) {
   .header-content {
-    width: 80%;
+    width: 84%;
     position: relative;
+    margin-top: 31%;
+    box-shadow: none;
   }
   .head-left {
     display: none;
@@ -270,6 +272,19 @@ div.pop {
   #carouselExampleIndicators {
     height: auto;
   }
+
+.pop {
+  width: 90%;
+  height: 35%;
+  left: 16px;
+}
+.header-content h1  {
+  font-size: 30px;
+}
+.download-button {
+  left: 20%;
+}
+
 }
 @media (min-width: 768px) {
   .main {
