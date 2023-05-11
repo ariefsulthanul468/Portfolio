@@ -113,6 +113,9 @@ h2 {
   
   background-image: url("../images/cardbg1.jpeg");
 }
+#resume {
+  margin: 20px;
+}
 
 
 #popup,
@@ -126,6 +129,7 @@ h2 {
 }
 div.pop {
   padding: 35px;
+  border-radius: 25px;
 }
 
 .card:hover {
@@ -271,6 +275,14 @@ div.pop {
   }
   #carouselExampleIndicators {
     height: auto;
+  }
+  header {
+    background-position: top;
+  }
+  .close {
+    position: fixed;
+    top: 20%;
+    right: 10%;
   }
 
 .pop {

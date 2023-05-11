@@ -96,7 +96,7 @@
             </p>
             <p style="color: grey">Let me show You...</p>
             <div class="download-button">
-              <button type="button" class="btn btn-outline-light btn-lg">
+              <button type="button" id="download"  class="btn btn-outline-light btn-lg" onclick="myFunction()">
                 <i class="fab fa-google-play"></i> Download
               </button>
             </div>
@@ -243,7 +243,12 @@
         <div class="carousel-inner container-fluid">
           <div class="carousel-item active">
             <h3 class="testimonial-text">ASSOCIATE WEB DEVELOIPER</h3>
-            <em class="testimonial-author">Xerago</em>
+            <div><em class="testimonial-author">Xerago <span>2022-2023</span></em></div>
+            
+            <button type="button" class="btn btn-lg btn-outline-dark" id="resume" onclick="downloadResume()">Resume</button>
+            <button type="button" class="btn btn-lg btn-outline-primary" id="expiCertificate" onclick="downloadExperienceCertificate()">Experience certificate</button>
+            <!-- <button type="button" class="btn btn-lg btn-outline-primary" id="expiCertificate">Cover letter</button> -->
+            
           </div>
           <div class="carousel-item">
             <h3 class="testimonial-text">
@@ -302,9 +307,7 @@
                 <div class="timeline-content">
                   <h3 class="title">HTML</h3>
                   <p class="description">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Cupiditate ducimus officiis quod! Aperiam eveniet nam
-                    nostrum odit quasi ullam voluptatum.
+                    As an experienced HTML developer, I have a strong understanding of HTML5 markup and its semantic structure. I have built responsive and accessible websites using HTML, ensuring cross-browser compatibility and clean code. I am proficient in handling forms, working with multimedia content, and integrating HTML with CSS and JavaScript.
                   </p>
                 </div>
               </div>
@@ -313,9 +316,7 @@
                 <div class="timeline-content">
                   <h3 class="title">CSS</h3>
                   <p class="description">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Cupiditate ducimus officiis quod! Aperiam eveniet nam
-                    nostrum odit quasi ullam voluptatum.
+                    I have a deep knowledge of CSS3 and its various styling techniques. I can create visually appealing layouts, apply custom styles, and implement responsive designs. I am skilled in using CSS preprocessors like Sass and Less, and I am familiar with CSS frameworks such as Bootstrap. Additionally, I have experience with CSS animations, transitions, and transformations to enhance user interactions on websites.
                   </p>
                 </div>
               </div>
@@ -324,9 +325,7 @@
                 <div class="timeline-content">
                   <h3 class="title">JAVASCRIPT</h3>
                   <p class="description">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Cupiditate ducimus officiis quod! Aperiam eveniet nam
-                    nostrum odit quasi ullam voluptatum.
+                    Proficient in JavaScript, the programming language of the web. Skilled in client-side scripting, manipulating the DOM, and creating interactive web experiences. Familiar with popular frameworks and libraries like React 
                   </p>
                 </div>
               </div>
@@ -335,9 +334,7 @@
                 <div class="timeline-content">
                   <h3 class="title">BOOTSTRAP</h3>
                   <p class="description">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Cupiditate ducimus officiis quod! Aperiam eveniet nam
-                    nostrum odit quasi ullam voluptatum.
+                    Skilled in using Bootstrap, a popular CSS framework, to create responsive and visually appealing web designs. Proficient in leveraging Bootstrap's grid system, components, and utilities for rapid prototyping and building modern web interfaces.
                   </p>
                 </div>
               </div>
@@ -346,9 +343,7 @@
                 <div class="timeline-content">
                   <h3 class="title">NODE JS</h3>
                   <p class="description">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Cupiditate ducimus officiis quod! Aperiam eveniet nam
-                    nostrum odit quasi ullam voluptatum.
+                    Experienced in server-side JavaScript development using Node.js. Knowledgeable in building scalable and efficient web applications. Proficient in working with Express.js framework and npm packages to develop robust back-end systems.
                   </p>
                 </div>
               </div>
@@ -357,9 +352,7 @@
                 <div class="timeline-content">
                   <h3 class="title">MONGO DB</h3>
                   <p class="description">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Cupiditate ducimus officiis quod! Aperiam eveniet nam
-                    nostrum odit quasi ullam voluptatum.
+                    Experienced in working with MongoDB, a NoSQL document database. Proficient in designing and implementing database schemas, performing CRUD operations, and working with MongoDB queries. Familiar with Mongoose ODM for Node.js-based applications.
                   </p>
                 </div>
               </div>
